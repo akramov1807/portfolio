@@ -69,21 +69,6 @@ export const personalInfo=[
     },
     {
         id:7,
-        title:'Phone : ',
-        description:'+998994841807',
-    },
-    {
-        id:8,
-        title:'Email : ',
-        description:'akramovh1807@gmail.com',
-    },
-    {
-        id:9,
-        title:'Telegram : ',
-        description:'https://t.me/akramov_h1807',
-    },
-    {
-        id:10,
         title:'Languages : ',
         description:'Uzbek, English beginner',
     },

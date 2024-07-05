@@ -1,4 +1,5 @@
 import React from 'react'
+import './about.css'
 import Info from '../../components/Info'
 import Stats from '../../components/Stats'
 import { FaDownload } from 'react-icons/fa'
@@ -28,6 +29,12 @@ export default function About() {
             <Stats/>
           </div>
         </div>
+      </section>
+
+      <div className='separator'></div>
+
+      <section className='skills'>
+        <h3 className='section__subtitle'>My Skills</h3>
       </section>
     </main>
   )

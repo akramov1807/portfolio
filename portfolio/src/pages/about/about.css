@@ -45,7 +45,7 @@
     position: relative;
 }
 
-.stats__title::before{
+.stats__title::before {
     content: '';
     position: absolute;
     left: 0;
@@ -55,8 +55,12 @@
     background-color: var(--text-color);
 }
 
-.separator{
+.separator {
     border: 1px solid var(--border-color);
     max-width: 40%;
     margin: 72px auto 56px;
+}
+
+.skills__container {
+    grid-template-columns: repeat(4, 1fr);
 }

@@ -96,3 +96,46 @@ export const stats=[
         title:'Awards <br/> Won',
     },
 ]
+
+export const skills=[
+    {
+        id:1,
+        title:'Html',
+        percentage:'25',
+    },
+    {
+        id:2,
+        title:'Javascript',
+        percentage:'90',
+    },
+    {
+        id:3,
+        title:'Css',
+        percentage:'70',
+    },
+    {
+        id:4,
+        title:'Typescript',
+        percentage:'45',
+    },
+    {
+        id:5,
+        title:'Jquery',
+        percentage:'55',
+    },
+    {
+        id:6,
+        title:'Angular',
+        percentage:'45',
+    },
+    {
+        id:7,
+        title:'React',
+        percentage:'75',
+    },
+    {
+        id:8,
+        title:'Wordpress',
+        percentage:'65',
+    },
+]

@@ -8,11 +8,13 @@ import Portfolio from './pages/portfolio/Portfolio'
 import Contact from './pages/contact/Contact'
 import Footer from './components/Footer'
 import { Container } from 'react-bootstrap'
+import Theme from './components/Theme'
 
 export default function App() {
   return (
     <Container fluid>
       <Navbar />
+      <Theme/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
